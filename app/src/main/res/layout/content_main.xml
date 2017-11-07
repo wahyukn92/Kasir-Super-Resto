@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.wahyukn92.kasirsuperresto.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gulai Kepala Ikan"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/jml1"
+        android:layout_alignBottom="@+id/jml1"
+        android:layout_alignLeft="@+id/txt1"
+        android:layout_alignStart="@+id/txt1" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayam Bakar Kalasan"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/jml2"
+        android:layout_alignBottom="@+id/jml2"
+        android:layout_alignLeft="@+id/txt1"
+        android:layout_alignStart="@+id/txt1" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iga Bakar Sambal Rujak"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/jml3"
+        android:layout_alignBottom="@+id/jml3"
+        android:layout_alignLeft="@+id/txt2"
+        android:layout_alignStart="@+id/txt2" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mendoang Anget"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/jml4"
+        android:layout_alignBottom="@+id/jml4"
+        android:layout_alignLeft="@+id/txt3"
+        android:layout_alignStart="@+id/txt3" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sphagetti Carbonara"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/jml5"
+        android:layout_alignBottom="@+id/jml5"
+        android:layout_alignRight="@+id/txt2"
+        android:layout_alignEnd="@+id/txt2" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rujak Singapura"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/jml6"
+        android:layout_alignBottom="@+id/jml6"
+        android:layout_alignLeft="@+id/txt4"
+        android:layout_alignStart="@+id/txt4" />
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es Teh Manis"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/jml6"
+        android:layout_alignLeft="@+id/txt6"
+        android:layout_alignStart="@+id/txt6" />
+
+    <EditText
+        android:id="@+id/jml1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginEnd="57dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/jml2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/jml1"
+        android:layout_alignLeft="@+id/jml1"
+        android:layout_alignStart="@+id/jml1" />
+
+    <EditText
+        android:id="@+id/jml3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/jml2"
+        android:layout_alignLeft="@+id/jml2"
+        android:layout_alignStart="@+id/jml2" />
+
+    <EditText
+        android:id="@+id/jml4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/jml3"
+        android:layout_alignLeft="@+id/jml3"
+        android:layout_alignStart="@+id/jml3" />
+
+    <EditText
+        android:id="@+id/jml5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/jml4"
+        android:layout_alignLeft="@+id/jml4"
+        android:layout_alignStart="@+id/jml4" />
+
+    <EditText
+        android:id="@+id/jml7"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_alignBaseline="@+id/txt7"
+        android:layout_alignBottom="@+id/txt7"
+        android:layout_alignLeft="@+id/jml6"
+        android:layout_alignStart="@+id/jml6" />
+
+    <EditText
+        android:id="@+id/jml6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/jml5"
+        android:layout_alignLeft="@+id/jml5"
+        android:layout_alignStart="@+id/jml5" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/jml7"
+        android:layout_marginTop="12dp"
+        android:onClick="hitungPasanan"
+        android:text="Hitung Harga"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Menu"
+        android:textColor="#00008B"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

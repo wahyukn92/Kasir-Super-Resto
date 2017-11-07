@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wahyukn92.kasirsuperresto.StrukPembelian">
+
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Struk Pembelian"
+        android:textColor="#00008B"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView27"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="26dp"
+        android:text="Gulai Kepala Ikan" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Ayam Bakar Kalasan"
+        android:layout_below="@+id/txt1"
+        android:layout_alignLeft="@+id/txt1"
+        android:layout_alignStart="@+id/txt1" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Iga Bakar Sambal Rujak"
+        android:layout_below="@+id/txt2"
+        android:layout_alignLeft="@+id/txt2"
+        android:layout_alignStart="@+id/txt2" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Mendoan Anget"
+        android:layout_below="@+id/txt3"
+        android:layout_alignLeft="@+id/txt3"
+        android:layout_alignStart="@+id/txt3" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Sphagetti Carbonara"
+        android:layout_below="@+id/txt4"
+        android:layout_alignLeft="@+id/txt4"
+        android:layout_alignStart="@+id/txt4" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Rujak Singapura"
+        android:layout_below="@+id/txt5"
+        android:layout_alignLeft="@+id/txt5"
+        android:layout_alignStart="@+id/txt5" />
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Es Teh Manis"
+        android:layout_below="@+id/txt6"
+        android:layout_alignLeft="@+id/txt6"
+        android:layout_alignStart="@+id/txt6" />
+
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Bayar"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/txt7"
+        android:layout_alignStart="@+id/txt7"
+        android:layout_marginBottom="52dp" />
+
+    <TextView
+        android:id="@+id/total1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt1"
+        android:layout_toEndOf="@+id/textView27"
+        android:layout_toRightOf="@+id/textView27"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/total2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt2"
+        android:layout_alignLeft="@+id/total1"
+        android:layout_alignStart="@+id/total1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/total3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt3"
+        android:layout_alignLeft="@+id/total2"
+        android:layout_alignStart="@+id/total2"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/total4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/total3"
+        android:layout_alignStart="@+id/total3"
+        android:layout_alignTop="@+id/txt4"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/total5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/total4"
+        android:layout_alignStart="@+id/total4"
+        android:layout_alignTop="@+id/txt5"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/total6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt6"
+        android:layout_alignEnd="@+id/total5"
+        android:layout_alignRight="@+id/total5"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/total7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/total6"
+        android:layout_alignRight="@+id/total6"
+        android:layout_alignTop="@+id/txt7"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/totalAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/total7"
+        android:layout_alignRight="@+id/total7"
+        android:layout_alignTop="@+id/txt8"
+        android:text="TextView" />
+</RelativeLayout>
